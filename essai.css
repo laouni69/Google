@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'lato'
+	src:url('Lato-Regular.ttf') format('truetype');
+}
+* {
+	color: black;
+}
+
+body {
+	font-family: 'lato';
+}
+
+html{
+	max-width: 100%;
+}
+
+#navbar {
+	display: flex;
+	justify-content: flex-end;
+}
+
+footer {
+	clear: both;
+	position: absolute;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	bottom: 0;
+	max-width: 100%;
+	background-color: #f4f4f4;
+	margin: 0 0 0 -10px;
+	padding: 10px 0 10px 0;
+}
+
+#basg {
+	display: inline-block; 
+}
+
+#basd {
+	display: inline-block; 
+}
+
+.categories {
+	padding: 7px;
+}
+
+.blok-central {
+	padding: 50px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.minilogo {
+	max-height: 35px;
+}
+
+#mysearch {
+	width: 520px;
+	margin: 0 auto;
+	display: block;
+}
