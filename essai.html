@@ -18,7 +18,12 @@
             </nav>
         </header>
 
-            <div class="blok-central">
+        <div id="cassecouille">
+            <button onclick="hideMe()" id="JSButton"">Afficher le contenu de la page</button>
+        </div>
+        
+
+            <div id="blokcentral">
                 <div id="logo">
                     <img src="google.png"></a>
                 </div>
@@ -29,7 +34,7 @@
                     
                 <div>
                     <input value="J'ai de la chance" type="submit">
-                    <input  value="Recherche google" type="submit">
+                    <input id="boutonrecherche" value="Recherche google" onclick="search()" type="submit">
                 </div>
             </div>
         
@@ -51,5 +56,6 @@
                 </ul>   
             </div>
         </footer>
+    <script src="fichier.js"></script>
     </body>
 </html>

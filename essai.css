@@ -45,9 +45,9 @@ footer {
 	padding: 7px;
 }
 
-.blok-central {
+#blokcentral {
+	display: none;
 	padding: 50px;
-	display: flex;
 	align-items: center;
 	flex-direction: column;
 }
@@ -61,3 +61,20 @@ footer {
 	margin: 0 auto;
 	display: block;
 }
+a.bouton1 {
+	padding: 10px 30px; 
+	background: blue; 
+	color: blue; 
+}
+a.bouton1:hover {
+background: white; 
+}
+
+#cassecouille {
+	display: block;		
+	text-align: center;
+	margin-top: 30px;
+	
+}
+	
+	
